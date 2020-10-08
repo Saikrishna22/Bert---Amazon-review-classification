@@ -10,8 +10,7 @@ This dataset consists of reviews of fine foods from amazon. The data span a peri
 
 ### Summary 
 ---
----
----
+
 *  removed null elements and removed html tags from the dataset.
 *  Changed ratings into 0 and 1. '0' - rating 1 & 2, '1' - ratings 4 & 5.
 *  Removed rating 3 from the dataset.
@@ -40,8 +39,7 @@ This dataset consists of reviews of fine foods from amazon. The data span a peri
 * we then pass this pooled output of size(None, 768) to the NN model which has been trained before.
 * Prediction is got from model predict funtion and is displayed at the end.
 ---
----
----
+## Reference  - BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding. paper - (https://arxiv.org/abs/1810.04805)
 
 
 
